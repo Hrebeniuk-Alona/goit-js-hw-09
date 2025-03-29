@@ -1,0 +1,47 @@
+.feedback-form{
+    display:flex;
+    flex-direction: column;
+    max-width: 408px;
+    padding: 24px;
+    margin:0 auto;
+}
+
+.feedback-form label{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    font-family: "Montserrat", sans-serif;
+    gap: 8px;
+    margin-bottom: 8px;
+
+}
+
+.feedback-form input,textarea{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+
+.feedback-form textarea {
+    height: 80px;
+    margin-bottom: 16px;
+}
+
+.feedback-form button{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+}
